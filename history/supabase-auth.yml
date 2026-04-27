@@ -1,7 +1,7 @@
 url: https://diuqaipsxeixjegorusd.supabase.co/auth/v1/health
-status: down
+status: up
 code: 401
-responseTime: 23
-lastUpdated: 2026-04-27T15:07:31.566Z
+responseTime: 15
+lastUpdated: 2026-04-27T15:12:34.367Z
 startTime: 2026-04-27T14:13:06.482Z
 generator: Upptime <https://github.com/upptime/upptime>
