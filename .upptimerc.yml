@@ -31,8 +31,107 @@ status-website:
   navbar:
     - title: Status
       href: /
+    - title: Website
+      href: https://fintalo.ai
     - title: GitHub
       href: https://github.com/Fintalo/fintalo-status
+  theme:
+    customCSS: |
+      :root {
+        --ifm-color-primary: #142B52;
+        --ifm-color-primary-dark: #0F2042;
+        --ifm-color-primary-darker: #0C1B38;
+        --ifm-color-primary-darkest: #08132A;
+        --ifm-color-primary-light: #1B3A6E;
+        --ifm-color-primary-lighter: #234589;
+        --ifm-color-primary-lightest: #4A90B9;
+        --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        --ifm-heading-font-family: var(--ifm-font-family-base);
+        --ifm-heading-font-weight: 600;
+        --ifm-background-color: #FFFFFF;
+        --ifm-background-surface-color: #FFFFFF;
+        --ifm-color-content: #0A1628;
+        --ifm-color-content-secondary: #5A6B85;
+        --ifm-toc-border-color: #E5EAF1;
+        --ifm-color-emphasis-300: #E5EAF1;
+        --ifm-color-success: #16A34A;
+        --ifm-color-danger: #DC2626;
+        --ifm-color-warning: #E8A23B;
+      }
+
+      /* Navbar */
+      .navbar {
+        background-color: #142B52;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      }
+      .navbar__title,
+      .navbar__link,
+      .navbar__brand {
+        color: #FFFFFF !important;
+        font-weight: 500;
+      }
+      .navbar__link:hover {
+        color: #E8A23B !important;
+      }
+
+      /* Hero section */
+      .hero {
+        background: linear-gradient(135deg, #142B52 0%, #4A90B9 100%);
+        color: #FFFFFF;
+        padding: 4rem 2rem;
+      }
+      .hero__title,
+      .hero__subtitle {
+        color: #FFFFFF;
+      }
+
+      /* Cards / sections */
+      .card,
+      article {
+        border: 1px solid #E5EAF1;
+        border-radius: 0.5rem;
+        background: #FFFFFF;
+      }
+
+      /* Status indicators — keep semantic green/red but match Fintalo tone */
+      [class*="up"],
+      .badge--success {
+        background-color: #16A34A !important;
+        color: #FFFFFF !important;
+      }
+      [class*="down"],
+      .badge--danger {
+        background-color: #DC2626 !important;
+        color: #FFFFFF !important;
+      }
+
+      /* Buttons */
+      .button--primary {
+        background-color: #142B52;
+        border-color: #142B52;
+      }
+      .button--primary:hover {
+        background-color: #1B3A6E;
+        border-color: #1B3A6E;
+      }
+
+      /* Links */
+      a {
+        color: #4A90B9;
+      }
+      a:hover {
+        color: #142B52;
+      }
+
+      /* Footer */
+      .footer {
+        background-color: #F8FAFC;
+        border-top: 1px solid #E5EAF1;
+        color: #5A6B85;
+      }
+      .footer a {
+        color: #4A90B9;
+      }
 
 assignees:
   - yazan-fin
