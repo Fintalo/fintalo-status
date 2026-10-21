@@ -78,19 +78,20 @@
     "url": "https://api.hellosign.com/v3/",
     "icon": "https://icons.duckduckgo.com/ip3/api.hellosign.com.ico",
     "slug": "dropbox-sign-api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 171,
-    "timeDay": 113,
-    "timeWeek": 163,
-    "timeMonth": 198,
+    "timeDay": 94,
+    "timeWeek": 152,
+    "timeMonth": 194,
     "timeYear": 171,
     "dailyMinutesDown": {
-      "2026-04-27": 59
+      "2026-04-27": 59,
+      "2026-10-21": 0
     }
   }
 ]
